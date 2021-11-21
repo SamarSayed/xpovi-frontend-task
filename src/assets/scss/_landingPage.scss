@@ -1,0 +1,15 @@
+.landing-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+  & > div {
+    @include content-box();
+    text-align: center;
+
+    h1{
+        margin-bottom: 35px;
+    }
+  }
+}

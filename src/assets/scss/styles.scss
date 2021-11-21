@@ -1,0 +1,24 @@
+#root{
+    height: 100%;
+}
+.questions-style{
+    font-weight: 500;
+    .q1, .q2, .q3{
+        margin-bottom: 30px;
+        p{
+            font-size: 20px;
+        }
+        label{
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .textarea-input{
+            max-width: 95%;
+        }
+    }
+}
+@import "mixins";
+@import "landingPage";
+@import "form";
+@import "finalReport";
+@import "404";

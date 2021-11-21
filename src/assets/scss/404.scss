@@ -1,0 +1,12 @@
+.container-404 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > div {
+    @include content-box();
+    text-align: center;
+  }
+}

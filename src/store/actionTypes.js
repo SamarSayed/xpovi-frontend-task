@@ -1,0 +1,1 @@
+export const STORE_ANSWERS = '[STORE_ANSWERS]'

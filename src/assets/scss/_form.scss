@@ -1,0 +1,23 @@
+.form-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    &>div{
+        @include content-box();
+    }
+    .form-section1{
+        @extend .questions-style;
+    }
+    .form-section2{
+        @extend .questions-style;
+    }
+    .btns-container{
+        display: flex;
+        justify-content: space-between !important;
+    }
+    .next-container{
+        display: flex;
+        justify-content: end !important;
+    }
+}

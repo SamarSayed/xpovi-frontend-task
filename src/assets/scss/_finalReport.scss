@@ -1,0 +1,15 @@
+.final-report-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  & > div {
+    @include content-box();
+    text-align: center;
+
+    h2 {
+      margin-bottom: 35px;
+    }
+  }
+}
